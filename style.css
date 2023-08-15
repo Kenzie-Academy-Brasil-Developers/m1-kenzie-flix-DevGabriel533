@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p{
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+
+.listas{
+    color: gray;
+}
