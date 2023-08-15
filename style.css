@@ -4,9 +4,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
-p{
+#titulo{
     color: white;
     font-size: 2vw;
 }
@@ -20,6 +21,8 @@ button{
     border: 1px solid #ffffff;
 }
 
+
+
 header{
 
 }
@@ -28,13 +31,37 @@ header{
     flex-direction: column;
     color: gray;
     list-style: none;
+    border-color: white;
+    border: 10px; 
+    text-align: center;
 }
 
 .imagem_lista{
-    width: 20%;
+    width: 200px;
     border-radius: 15px;
+    border-color: white;
+    border: 1px solid black;
 }
 
 #users{
     width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.listas:hover{
+    color: white;
+    border: 1px;
+    border-color: white;
+}
+.imagem_lista:hover{
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
